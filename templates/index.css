@@ -1,0 +1,102 @@
+html, body{
+    display: grid;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: crimson text;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+article{
+    min-height: 100%vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+header{
+    background-color: #262828;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #EFF0f0;
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+header nav ul li{
+    list-style-type: none;
+}
+
+nav > ul ul{
+    display: none;
+}
+
+nav > ul> li:hover>ul,
+nav > ul > li > ul > li:hover > ul{
+    display: block;
+}
+
+.brand{
+    display: grid;
+    align-content: center;
+}
+
+footer{
+    margin: 0rem;
+}
+
+h3{
+    border-bottom: 1.5px solid black;
+    width: fit-content;
+}
+
+.add-p{
+    line-height: 0.5rem;
+}
+
+.foot-details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0.5rem 1.5rem;
+    line-height: 1rem;
+}
+
+.Extra-link{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 0;
+}
+
+.Extra{
+    line-height: 1rem;
+}
+
+.Extra-link li{
+    padding: 0.39rem;
+}
+
+.last-foot{
+    display: grid;
+    justify-content: center;
+    background-color: #262828;
+    color: #EFF0f0;
+}
+
+.foot-navb ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
